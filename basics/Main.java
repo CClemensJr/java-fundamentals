@@ -40,9 +40,15 @@ public class Main {
             // println tails if random number is below .5 else println heads
             System.out.println(coinFace);
 
-            countHeadsInARow++;
+            // stop looping once heads has appeared n times in a row
+            if (coinFace == "heads") {
+                countHeadsInARow++;
+            } else {
+                countHeadsInARow = 0;
+            }
+
+            countTotalFlips++;
         }
-        // stop looping once heads has appeared n times in a row
         // println "It took FLIPCOUNTER to flip N heads in a row"
     }
 
