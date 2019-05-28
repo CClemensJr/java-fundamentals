@@ -61,7 +61,7 @@ public class Main {
             countTotalFlips++;
         }
 
-        System.out.println("It took " + countTotalFlips + " to flip " + n + " heads in a row.");
+        System.out.println("It took " + countTotalFlips + " " + pluralize("flip", countTotalFlips) + " to flip " + n + " heads in a row.");
     }
 
 
@@ -69,7 +69,8 @@ public class Main {
      * CLOCK
      * Constantly print out the current time to the console
      */
-    public static void clock() {
+    public static void clock() 
+    {
         // create a LocalDateTime object
         LocalDateTime current = LocalDateTime.now();
 
