@@ -65,6 +65,7 @@ public class Main {
     }
 
 
+
     /***************
      * CLOCK
      * Constantly print out the current time to the console
@@ -73,9 +74,12 @@ public class Main {
     {
         // create a LocalDateTime object
         LocalDateTime current = LocalDateTime.now();
-
         String time = current.format(DateTimeFormatter.ofPattern("hh:mm:ss"));
-        // loop displaying the updated time each second.
-        System.out.println(time);
+
+        while (current != LocalDateTime.now()) {
+            System.out.println(time);
+            current = LocalDateTime.now();
+            time = current.format(DateTimeFormatter.ofPattern("hh:mm:ss"));
+        }
     }
 }
