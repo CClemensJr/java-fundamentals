@@ -1,4 +1,5 @@
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 public class Main {
     public static void main(String[] args) {
@@ -72,7 +73,7 @@ public class Main {
         // create a LocalDateTime object
         LocalDateTime current = LocalDateTime.now();
 
-        String time = current.format(DateTimeFormatter.ofPattern("HH:mm:ss"));
+        String time = current.format(DateTimeFormatter.ofPattern("hh:mm:ss"));
         // loop displaying the updated time each second.
         System.out.println(time);
     }
