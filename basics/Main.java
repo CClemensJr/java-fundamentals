@@ -72,14 +72,22 @@ public class Main {
      */
     public static void clock() 
     {
-        // create a LocalDateTime object
         LocalDateTime current = LocalDateTime.now();
+        int currentSecond = current.getSecond();
         String time = current.format(DateTimeFormatter.ofPattern("hh:mm:ss"));
 
         while (current != LocalDateTime.now()) {
-            System.out.println(time);
             current = LocalDateTime.now();
-            time = current.format(DateTimeFormatter.ofPattern("hh:mm:ss"));
+            
+            if (current.getSecond() == currentSecond + 1) {
+                System.out.println(time);
+
+                current = LocalDateTime.now();
+                currentSecond = current.getSecond();
+                time = current.format(DateTimeFormatter.ofPattern("hh:mm:ss"));
+            }
+
+            continue;
         }
     }
 }
