@@ -3,7 +3,9 @@
 public class Main {
     public static void main(String[] args) {
         //call pluralize
+        pluralize("Allo", 3);
         //call flipNHeads
+        flipNHeads(3);
         //call clock
 
         System.out.println("Allo, love!");
@@ -12,6 +14,10 @@ public class Main {
     public static String pluralize(String word, int number) {
         System.out.println("Allo from pluralize!");
 
-        return "Allo";
+        return "Allos";
+    }
+
+    public static void flipNHeads(int n) {
+        System.out.println("Allo from flipNHeads");
     }
 }
