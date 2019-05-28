@@ -20,14 +20,30 @@ public class Main {
         System.out.println("Allo, love!");
     }
 
+    // Accept a string and a number and pluralize the string based on the number
     public static String pluralize(String word, int number) {
         String pluralWord = number == 0 || number > 1 ? word + "s" : word;
 
         return pluralWord;
     }
 
+    // Take a number and simulate a coin flip until heads has appeared that number of times.
     public static void flipNHeads(int n) {
-        System.out.println("Allo from flipNHeads!");
+        // create a counter to track flips
+        int countTotalFlips = 0;
+        int countHeadsInARow = 0;
+
+        // while looping
+        while (countHeadsInARow != n) {
+            System.out.println("Allo from flipNHeads!");
+
+            countHeadsInARow++;
+            // get a random number between 0 and 1
+            // println tails if random number is below .5 else println heads
+
+        }
+        // stop looping once heads has appeared n times in a row
+        // println "It took FLIPCOUNTER to flip N heads in a row"
     }
 
     public static void clock() {
