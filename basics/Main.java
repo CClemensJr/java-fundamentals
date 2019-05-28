@@ -1,3 +1,5 @@
+import sun.print.resources.serviceui;
+
 //import java.time.localDateTime;
 
 public class Main {
@@ -15,7 +17,9 @@ public class Main {
     public static String pluralize(String word, int number) {
         System.out.println("Allo from pluralize!");
 
-        return "Allos";
+        String pluralWord = number == 0 || number > 1 ? word + s : word;
+
+        return pluralWord;
     }
 
     public static void flipNHeads(int n) {
