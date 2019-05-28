@@ -35,12 +35,12 @@ public class Main {
 
         // while looping
         while (countHeadsInARow != n) {
-            System.out.println("Allo from flipNHeads!");
+            // get a random number between 0 and 1
+            String coinFace = (Math.random() < .5) ? "tails" : "heads";
+            // println tails if random number is below .5 else println heads
+            System.out.println(coinFace);
 
             countHeadsInARow++;
-            // get a random number between 0 and 1
-            // println tails if random number is below .5 else println heads
-
         }
         // stop looping once heads has appeared n times in a row
         // println "It took FLIPCOUNTER to flip N heads in a row"
