@@ -1,11 +1,17 @@
-import sun.print.resources.serviceui;
-
 //import java.time.localDateTime;
 
 public class Main {
     public static void main(String[] args) {
         //call pluralize
-        pluralize("Allo", 3);
+        int numberOfDogs = 2;
+        System.out.println("I have " + numberOfDogs + " " + pluralize("dog", numberOfDogs) + ".");
+
+        int numberOfCats = 1;
+        System.out.println("I have " + numberOfCats + " " + pluralize("cat", numberOfCats) + ".");
+
+        int numberOfHamsters = 0;
+        System.out.println("I have " + numberOfHamsters + " " + pluralize("hamster", numberOfHamsters) + ".");
+        
         //call flipNHeads
         flipNHeads(3);
         //call clock
@@ -15,9 +21,7 @@ public class Main {
     }
 
     public static String pluralize(String word, int number) {
-        System.out.println("Allo from pluralize!");
-
-        String pluralWord = number == 0 || number > 1 ? word + s : word;
+        String pluralWord = number == 0 || number > 1 ? word + "s" : word;
 
         return pluralWord;
     }
