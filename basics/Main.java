@@ -7,6 +7,7 @@ public class Main {
         //call flipNHeads
         flipNHeads(3);
         //call clock
+        clock();
 
         System.out.println("Allo, love!");
     }
@@ -18,6 +19,10 @@ public class Main {
     }
 
     public static void flipNHeads(int n) {
-        System.out.println("Allo from flipNHeads");
+        System.out.println("Allo from flipNHeads!");
+    }
+
+    public static void clock() {
+        System.out.println("Allo from clock!");
     }
 }
