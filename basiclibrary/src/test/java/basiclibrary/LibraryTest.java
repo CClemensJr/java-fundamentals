@@ -30,4 +30,17 @@ public class LibraryTest {
         assertTrue(lib.containsDuplicates(arr));
     }
 
+/*********
+ * calcAvg tests
+ * */
+    @Test
+    public void calcAvgShouldReturnAvg() {
+        Library lib = new Library();
+        int[] arr = { 1, 2, 2, 4, 5 };
+        double expectedAvg = 2.8;
+
+        assertTrue(lib.calcAvg(arr) == expectedAvg);
+    }
 }
+
+

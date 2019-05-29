@@ -45,7 +45,7 @@ public class Library {
  *
  * Write a method that accepts an array of integers and calculates and returns the average of all the values in the array.
  * */
-    public int calcAvg(int[] arr) {
+    public double calcAvg(int[] arr) {
 
         return 0;
     }
