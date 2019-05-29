@@ -10,10 +10,21 @@ public class Library {
 
 /**********
  * ROLLING DICE
+ *
  * Write a method called roll that accepts an integer n and rolls a six-sided dice n times. The method should return an
  * array containing the values of the rolls.
  * */
     public int[] roll(int n) {
+
+    }
+
+
+/*******
+ * CONTAINS DUPLICATES
+ *
+ * Write a method called containsDuplicates that returns true or false depending on whether the array contains duplicate values.
+ * */
+    public boolean containsDuplicates(int[] arr) {
 
     }
 }
