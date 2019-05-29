@@ -66,7 +66,7 @@ public class Library {
  *
  * Given an array of arrays calculate the average value for each array and return the array with the lowest average.
  * */
-    public int[] calcAllAvgs(int[][] arr) {
+    public double[] calcAllAvgs(int[][] arr) {
 
         return null;
     }
