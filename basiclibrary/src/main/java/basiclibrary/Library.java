@@ -16,6 +16,7 @@ public class Library {
  * */
     public int[] roll(int n) {
 
+        return null;
     }
 
 
@@ -24,7 +25,24 @@ public class Library {
  *
  * Write a method called containsDuplicates that returns true or false depending on whether the array contains duplicate values.
  * */
-    public boolean containsDuplicates(int[] arr) {
+    public boolean containsDups(int[] arr) {
 
+        return true;
     }
+
+
+/*******
+ * Calculating Averages
+ *
+ * Write a method that accepts an array of integers and calculates and returns the average of all the values in the array.
+ * */
+    public int calcAvg(int[] arr) {
+
+        return 0;
+    }
+
+
+
+
+
 }
