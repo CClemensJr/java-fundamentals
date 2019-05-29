@@ -7,8 +7,11 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class LibraryTest {
-    @Test public void testSomeLibraryMethod() {
-        Library classUnderTest = new Library();
-        assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
+    @Test
+    public void rollShouldReturnArray() {
+        Library lib = new Library();
+        int numOfRolls = 5;
+        int[] allRolls = lib.roll(numOfRolls);
+        assertTrue(allRolls.length == 5);
     }
 }
