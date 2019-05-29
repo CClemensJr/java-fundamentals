@@ -55,8 +55,6 @@ public class Library {
 
         double avg = sum / length;
 
-        System.out.println("SUM: " + sum + " || " + "LENGTH: " + length + " || " + "AVG: " + avg);
-
         return avg;
     }
 
@@ -67,7 +65,13 @@ public class Library {
  * Given an array of arrays calculate the average value for each array and return the array with the lowest average.
  * */
     public double[] calcAllAvgs(int[][] arr) {
+        int length = arr.length;
+        double[] allAvgs = new double[length];
 
-        return null;
+        for (int i = 0; i < length; i++) {
+            allAvgs[i] = calcAvg(arr[i]);
+        }
+
+        return allAvgs;
     }
 }

@@ -46,13 +46,12 @@ public class LibraryTest {
  * calcAllAvgs tests
  * */
     @Test
-    public void calcAllAvgsShouldReturnArrayOfAvgs() {
+    public void calcAllAvgsShouldReturnArray() {
         Library lib = new Library();
         int[][] arr = { { 1, 2, 2, 4, 5 }, { 5, 3, 8, 2 } };
 
-        double[] expectedAvgs = { 2.8, 4.5 };
 
-        assertTrue(expectedAvgs == lib.calcAllAvgs(arr));
+        assertTrue(lib.calcAllAvgs(arr).length == 2);
     }
 }
 
