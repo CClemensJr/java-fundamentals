@@ -7,4 +7,13 @@ public class Library {
     public boolean someLibraryMethod() {
         return true;
     }
+
+/**********
+ * ROLLING DICE
+ * Write a method called roll that accepts an integer n and rolls a six-sided dice n times. The method should return an
+ * array containing the values of the rolls.
+ * */
+    public int[] roll(int n) {
+
+    }
 }
