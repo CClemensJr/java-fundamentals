@@ -12,6 +12,17 @@ public class LibraryTest {
         Library lib = new Library();
         int numOfRolls = 5;
         int[] allRolls = lib.roll(numOfRolls);
+
         assertTrue(allRolls.length == 5);
+    }
+
+    @Test
+    public void containsDuplicatesShouldReturnBoolean() {
+        Library lib = new Library();
+        int numOfRolls = 5;
+        int[] allRolls = lib.roll(numOfRolls);
+        boolean hasDups = lib.containsDups(allRolls);
+
+        assertTrue(hasDups == true || hasDups == false);
     }
 }
