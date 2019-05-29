@@ -4,9 +4,6 @@
 package basiclibrary;
 
 public class Library {
-    public boolean someLibraryMethod() {
-        return true;
-    }
 
 /**********
  * ROLLING DICE
@@ -15,8 +12,15 @@ public class Library {
  * array containing the values of the rolls.
  * */
     public int[] roll(int n) {
+        int[] rolls = new int[n];
+        int min = 1;
+        int max = 6;
 
-        return null;
+        for (int i = 0; i < n; i++) {
+            rolls[i] = (int) (Math.random() * ((max - min) + 1)) + min;
+        }
+
+        return rolls;
     }
 
 
