@@ -42,7 +42,13 @@ public class Library {
     }
 
 
+/*******
+ * Arrays of Arrays
+ *
+ * Given an array of arrays calculate the average value for each array and return the array with the lowest average.
+ * */
+    public int[] calcAllAvgs(int[][] arr) {
 
-
-
+        return null;
+    }
 }
