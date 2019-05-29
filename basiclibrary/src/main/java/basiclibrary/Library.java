@@ -29,9 +29,14 @@ public class Library {
  *
  * Write a method called containsDuplicates that returns true or false depending on whether the array contains duplicate values.
  * */
-    public boolean containsDups(int[] arr) {
+    public boolean containsDuplicates(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr.length; j++) {
+                if (j == i) return true;
+            }
+        }
 
-        return true;
+        return false;
     }
 
 

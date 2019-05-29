@@ -7,6 +7,9 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class LibraryTest {
+/*********
+ * roll tests
+ * */
     @Test
     public void rollShouldReturnArray() {
         Library lib = new Library();
@@ -16,13 +19,15 @@ public class LibraryTest {
         assertTrue(allRolls.length == 5);
     }
 
+/*********
+ * containsDuplicates tests
+ * */
     @Test
-    public void containsDuplicatesShouldReturnBoolean() {
+    public void containsDuplicatesShouldReturnTrue() {
         Library lib = new Library();
-        int numOfRolls = 5;
-        int[] allRolls = lib.roll(numOfRolls);
-        boolean hasDups = lib.containsDups(allRolls);
+        int[] arr = { 1, 2, 2, 4, 5 };
 
-        assertTrue(hasDups == true || hasDups == false);
+        assertTrue(lib.containsDuplicates(arr));
     }
+
 }
