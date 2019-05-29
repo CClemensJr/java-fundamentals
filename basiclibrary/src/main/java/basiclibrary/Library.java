@@ -46,8 +46,18 @@ public class Library {
  * Write a method that accepts an array of integers and calculates and returns the average of all the values in the array.
  * */
     public double calcAvg(int[] arr) {
+        double sum = 0;
+        double length = arr.length;
 
-        return 0;
+        for (int i = 0; i < length; i++) {
+            sum += arr[i];
+        }
+
+        double avg = sum / length;
+
+        System.out.println("SUM: " + sum + " || " + "LENGTH: " + length + " || " + "AVG: " + avg);
+
+        return avg;
     }
 
 
