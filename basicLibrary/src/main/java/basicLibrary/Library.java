@@ -4,6 +4,7 @@
 package basicLibrary;
 
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class Library {
@@ -123,5 +124,9 @@ public class Library {
  * Write a function called tally that accepts a List of Strings representing votes and returns one string to show what got
  * the most votes.
  * */
+    public String tally(List<String> results) {
+
+        return "This got most votes:";
+    }
 
 }
