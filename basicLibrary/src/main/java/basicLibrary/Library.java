@@ -3,8 +3,10 @@
  */
 package basicLibrary;
 
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 public class Library {
@@ -125,6 +127,16 @@ public class Library {
  * the most votes.
  * */
     public String tally(List<String> results) {
+        Map<String, Integer> resultsMap = new HashMap<>();
+        String mostVotes = " received the most votes!";
+
+        results.forEach((result) -> {
+            if (resultsMap.containsKey(result)) resultsMap.merge(result, 1, Integer::sum);
+
+            resultsMap.putIfAbsent(result, 1);
+        });
+
+        System.out.println(resultsMap);
 
         return "This got most votes:";
     }

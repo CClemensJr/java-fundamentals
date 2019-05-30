@@ -4,6 +4,10 @@
 package basicLibrary;
 
 import org.junit.Test;
+
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.junit.Assert.*;
 
 public class LibraryTest {
@@ -71,6 +75,29 @@ public class LibraryTest {
         String missingTemps = "Never saw temperatures: 63, 67, 68, 69";
 
         assertEquals(lib.analyzeWeatherData(arr), missingTemps);
+    }
+
+/*********
+ * tally tests
+ * */
+    @Test
+    public void tallyShouldReturnMostVotes() {
+        Library lib = new Library();
+        List<String> votes = new ArrayList<>();
+
+        votes.add("Bush");
+        votes.add("Bush");
+        votes.add("Bush");
+        votes.add("Shrub");
+        votes.add("Hedge");
+        votes.add("Shrub");
+        votes.add("Bush");
+        votes.add("Hedge");
+        votes.add("Bush");
+
+        String winner = lib.tally(votes);
+
+        assertEquals("Message", winner);
     }
 }
 
