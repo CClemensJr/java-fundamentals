@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6737d0d6-5023-4882-9cad-f7f1bbf01634" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/basiclibrary/src/main/java/basiclibrary/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/src/main/java/basiclibrary/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/oldBasiclibrary/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/oldBasiclibrary/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/oldBasiclibrary/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/oldBasiclibrary/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/oldBasiclibrary/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/oldBasiclibrary/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/src/main/java/basiclibrary/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/oldBasiclibrary/src/main/java/basiclibrary/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/src/test/java/basiclibrary/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/oldBasiclibrary/src/test/java/basiclibrary/LibraryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +24,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/basiclibrary/src/main/java/basiclibrary/Library.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oldBasiclibrary/src/main/java/basiclibrary/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="87" column="20" lean-forward="true" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
+            <state relative-caret-position="315">
+              <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/oldBasiclibrary/src/test/java/basiclibrary/LibraryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,6 +59,7 @@
         <option value="$PROJECT_DIR$/basics/Main.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/basiclibrary/src/test/java/basiclibrary/LibraryTest.java" />
         <option value="$PROJECT_DIR$/basiclibrary/src/main/java/basiclibrary/Library.java" />
       </list>
     </option>
@@ -57,65 +81,6 @@
               <item name="java-fundamentals" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-fundamentals" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="java-fundamentals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-fundamentals" type="462c0819:PsiDirectoryNode" />
-              <item name="basiclibrary" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-fundamentals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-fundamentals" type="462c0819:PsiDirectoryNode" />
-              <item name="basiclibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-fundamentals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-fundamentals" type="462c0819:PsiDirectoryNode" />
-              <item name="basiclibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-fundamentals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-fundamentals" type="462c0819:PsiDirectoryNode" />
-              <item name="basiclibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-fundamentals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-fundamentals" type="462c0819:PsiDirectoryNode" />
-              <item name="basiclibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="basiclibrary" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-fundamentals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-fundamentals" type="462c0819:PsiDirectoryNode" />
-              <item name="basiclibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-fundamentals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-fundamentals" type="462c0819:PsiDirectoryNode" />
-              <item name="basiclibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-fundamentals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-fundamentals" type="462c0819:PsiDirectoryNode" />
-              <item name="basiclibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="basiclibrary" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -129,7 +94,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -142,6 +107,30 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="/Users/clmen/IdeaProjects/CodeFellows/java-fundamentals/basiclibrary/build.gradle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/basiclibrary/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle./Users/clmen/IdeaProjects/CodeFellows/java-fundamentals/basiclibrary/build.gradle" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -160,7 +149,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18597998" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18597998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -168,14 +157,15 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -221,20 +211,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basiclibrary/src/test/java/basiclibrary/LibraryTest.java">
+    <entry file="file://$PROJECT_DIR$/oldBasiclibrary/src/main/java/basiclibrary/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="315">
+          <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
           <folding>
-            <element signature="e#0#383#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basiclibrary/src/main/java/basiclibrary/Library.java">
+    <entry file="file://$PROJECT_DIR$/oldBasiclibrary/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="87" column="20" lean-forward="true" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oldBasiclibrary/src/test/java/basiclibrary/LibraryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

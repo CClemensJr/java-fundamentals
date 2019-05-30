@@ -3,6 +3,9 @@
  */
 package basiclibrary;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class Library {
 
 /**********
@@ -83,7 +86,24 @@ public class Library {
  * Use a HashSet of type Integer to keep track of all the unique temperatures seen. Finally, iterate from the min temp
  * to the max temp and create a String containing any temperature not seen during the month. Return that String.
  * */
-    public String analyzeWeatherData(int[][] weeklyMonthTemps) {
+    public String analyzeWeatherData(int[][] temps) {
+        Set<Integer> uniqueTemps = new HashSet<>();
+        int minTemp = 0;
+        int maxTemp = 0;
+        String missingTemps = "";
+
+        // Iterate through array
+        for (int i = 0; i < temps.length; i++) {
+            for (int j = 0; j < temps[i].length; j++) {
+                System.out.println("I: " + temps[i] + " || " + "J: " + temps[i][j]);
+            }
+        }
+        // Find min
+        // Find max
+        // Add all unique temps to hashmap
+        // iterate from min temp to max temp
+        // Add any missing temps to a string
+        // return string
 
         return null;
     }
