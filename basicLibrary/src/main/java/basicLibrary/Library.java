@@ -109,7 +109,11 @@ public class Library {
             if (!uniqueTemps.contains(i)) missingTemps = missingTemps + i + ", ";
         }
 
-        return missingTemps.substring(0, missingTemps.length() - 1);
+        missingTemps = missingTemps.substring(0, missingTemps.length() - 2);
+
+        System.out.println(missingTemps);
+
+        return missingTemps;
     }
 
 

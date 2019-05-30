@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b2ace066-014b-4fb9-aa53-7870d3272771" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/basicLibrary/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basicLibrary/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basicLibrary/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basicLibrary/LibraryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -24,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/basicLibrary/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="110" column="8" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="8" />
+            <state relative-caret-position="435">
+              <caret line="115" column="27" selection-start-line="115" selection-start-column="15" selection-end-line="115" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/basicLibrary/LibraryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="72" column="69" selection-start-line="72" selection-start-column="69" selection-end-line="72" selection-end-column="69" />
+            <state relative-caret-position="344">
+              <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -53,8 +54,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/basicLibrary/LibraryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/basicLibrary/Library.java" />
+        <option value="$PROJECT_DIR$/src/test/java/basicLibrary/LibraryTest.java" />
       </list>
     </option>
   </component>
@@ -145,7 +146,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.LibraryTest">
+    <configuration name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basicLibrary.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basicLibrary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basicLibrary" />
+      <option name="MAIN_CLASS_NAME" value="basicLibrary.LibraryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LibraryTest.analyzeWeatherDataShouldGetMinTemp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="basicLibrary.test" />
       <extension name="coverage">
@@ -162,8 +178,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LibraryTest.analyzeWeatherDataShouldReturnMissingTemps" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basicLibrary.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basicLibrary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basicLibrary" />
+      <option name="MAIN_CLASS_NAME" value="basicLibrary.LibraryTest" />
+      <option name="METHOD_NAME" value="analyzeWeatherDataShouldReturnMissingTemps" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LibraryTest" />
+        <item itemvalue="JUnit.LibraryTest.analyzeWeatherDataShouldReturnMissingTemps" />
         <item itemvalue="JUnit.LibraryTest.analyzeWeatherDataShouldGetMinTemp" />
       </list>
     </recent_temporary>
@@ -182,24 +216,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibraryTest_analyzeWeatherDataShouldGetMinTemp - 2019.05.30 at 10h 52m 14s.xml">
-      <configuration name="LibraryTest.analyzeWeatherDataShouldGetMinTemp" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_analyzeWeatherDataShouldGetMinTemp - 2019.05.30 at 10h 52m 50s.xml">
-      <configuration name="LibraryTest.analyzeWeatherDataShouldGetMinTemp" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_analyzeWeatherDataShouldGetMinTemp - 2019.05.30 at 10h 55m 48s.xml">
-      <configuration name="LibraryTest.analyzeWeatherDataShouldGetMinTemp" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_analyzeWeatherDataShouldGetMinTemp - 2019.05.30 at 10h 57m 19s.xml">
-      <configuration name="LibraryTest.analyzeWeatherDataShouldGetMinTemp" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_analyzeWeatherDataShouldGetMinTemp - 2019.05.30 at 11h 05m 57s.xml">
-      <configuration name="LibraryTest.analyzeWeatherDataShouldGetMinTemp" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_analyzeWeatherDataShouldGetMinTemp - 2019.05.30 at 11h 07m 07s.xml">
-      <configuration name="LibraryTest.analyzeWeatherDataShouldGetMinTemp" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LibraryTest_analyzeWeatherDataShouldGetMinTemp - 2019.05.30 at 11h 08m 39s.xml">
       <configuration name="LibraryTest.analyzeWeatherDataShouldGetMinTemp" configurationId="JUnit" />
     </history-entry>
@@ -211,6 +227,24 @@
     </history-entry>
     <history-entry file="LibraryTest_analyzeWeatherDataShouldGetMinTemp - 2019.05.30 at 11h 26m 15s.xml">
       <configuration name="LibraryTest.analyzeWeatherDataShouldGetMinTemp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_analyzeWeatherDataShouldReturnMissingTemps - 2019.05.30 at 11h 28m 18s.xml">
+      <configuration name="LibraryTest.analyzeWeatherDataShouldReturnMissingTemps" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_analyzeWeatherDataShouldReturnMissingTemps - 2019.05.30 at 11h 28m 44s.xml">
+      <configuration name="LibraryTest.analyzeWeatherDataShouldReturnMissingTemps" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_analyzeWeatherDataShouldReturnMissingTemps - 2019.05.30 at 11h 30m 05s.xml">
+      <configuration name="LibraryTest.analyzeWeatherDataShouldReturnMissingTemps" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_analyzeWeatherDataShouldReturnMissingTemps - 2019.05.30 at 11h 31m 09s.xml">
+      <configuration name="LibraryTest.analyzeWeatherDataShouldReturnMissingTemps" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_analyzeWeatherDataShouldReturnMissingTemps - 2019.05.30 at 11h 31m 48s.xml">
+      <configuration name="LibraryTest.analyzeWeatherDataShouldReturnMissingTemps" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest - 2019.05.30 at 11h 36m 07s.xml">
+      <configuration name="LibraryTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -249,20 +283,20 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/basicLibrary/LibraryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="72" column="69" selection-start-line="72" selection-start-column="69" selection-end-line="72" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/basicLibrary/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="110" column="8" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="8" />
+        <state relative-caret-position="435">
+          <caret line="115" column="27" selection-start-line="115" selection-start-column="15" selection-end-line="115" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/basicLibrary/LibraryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
         </state>
       </provider>
     </entry>

@@ -58,7 +58,7 @@ public class LibraryTest {
  * analyzeWeatherData tests
  * */
     @Test
-    public void analyzeWeatherDataShouldGetMinTemp() {
+    public void analyzeWeatherDataShouldReturnMissingTemps() {
         Library lib = new Library();
 
         int[][] arr = {
@@ -68,9 +68,9 @@ public class LibraryTest {
             {65, 56, 55, 52, 55, 62, 57}
         };
 
-        int min = 51;
+        String missingTemps = "Never saw temperatures: 63, 67, 68, 69";
 
-        assertTrue(lib.analyzeWeatherData(arr) == String.valueOf(min));
+        assertEquals(lib.analyzeWeatherData(arr), missingTemps);
     }
 }
 
