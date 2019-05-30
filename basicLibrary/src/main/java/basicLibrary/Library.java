@@ -90,25 +90,26 @@ public class Library {
         Set<Integer> uniqueTemps = new HashSet<>();
         int minTemp = 120;
         int maxTemp = 0;
-        String missingTemps = "";
+        String missingTemps = "Never saw temperatures: ";
 
         // Iterate through array
         for (int i = 0; i < temps.length; i++) {
             for (int j = 0; j < temps[i].length; j++) {
                 if (temps[i][j] < minTemp) minTemp = temps[i][j];
                 if (temps[i][j] > maxTemp) maxTemp = temps[i][j];
+
+                uniqueTemps.add(temps[i][j]);
             }
         }
 
-        System.out.println("MIN: " + minTemp + " || " + "MAX: " + maxTemp);
-        // Find min
-        // Find max
-        // Add all unique temps to hashmap
-        // iterate from min temp to max temp
-        // Add any missing temps to a string
-        // return string
+        System.out.println("High: " + maxTemp);
+        System.out.println("Low: " + minTemp);
 
-        return String.valueOf(minTemp);
+        for(int i = minTemp; i < maxTemp; i++) {
+            if (!uniqueTemps.contains(i)) missingTemps = missingTemps + i + ", ";
+        }
+
+        return missingTemps.substring(0, missingTemps.length() - 1);
     }
 
 
