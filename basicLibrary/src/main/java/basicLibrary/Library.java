@@ -3,11 +3,7 @@
  */
 package basicLibrary;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class Library {
 
@@ -128,7 +124,6 @@ public class Library {
  * */
     public String tally(List<String> results) {
         Map<String, Integer> resultsMap = new HashMap<>();
-        String mostVotes = " received the most votes!";
 
         results.forEach((result) -> {
             if (resultsMap.containsKey(result)) resultsMap.merge(result, 1, Integer::sum);
@@ -136,9 +131,10 @@ public class Library {
             resultsMap.putIfAbsent(result, 1);
         });
 
-        System.out.println(resultsMap);
+        // This was inspired by something I saw on stackoverflow
+        String winner = Collections.max(resultsMap.entrySet(), Comparator.comparingInt(Map.Entry::getValue)).getKey();
 
-        return "This got most votes:";
+        return winner + " received the most votes!";
     }
 
 }
