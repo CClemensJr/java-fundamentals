@@ -14,7 +14,7 @@ public class Restaurant {
  * */
     public Restaurant(String name) {
         this.name = name;
-        this.numberOfStars = 0;
+        this.numberOfStars = 1;
         this.priceCategory = "$";
     }
 
