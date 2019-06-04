@@ -57,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/inheritance/ReviewTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+            <state relative-caret-position="330">
+              <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -177,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReviewTest.canCreateAnEmptyReview">
+  <component name="RunManager" selected="JUnit.ReviewTest.canCreateACompleteReview">
     <configuration name="RestaurantTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="inheritance.test" />
       <extension name="coverage">
@@ -209,22 +209,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestaurantTest.canCreateRestaurantWithDefaultConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="inheritance.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="inheritance" />
-      <option name="MAIN_CLASS_NAME" value="inheritance.RestaurantTest" />
-      <option name="METHOD_NAME" value="canCreateRestaurantWithDefaultConstructor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RestaurantTest.canGetStringWithRestaurantDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="inheritance.test" />
       <extension name="coverage">
@@ -236,6 +220,22 @@
       <option name="PACKAGE_NAME" value="inheritance" />
       <option name="MAIN_CLASS_NAME" value="inheritance.RestaurantTest" />
       <option name="METHOD_NAME" value="canGetStringWithRestaurantDetails" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReviewTest.canCreateACompleteReview" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inheritance.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="inheritance" />
+      <option name="MAIN_CLASS_NAME" value="inheritance.ReviewTest" />
+      <option name="METHOD_NAME" value="canCreateACompleteReview" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -259,11 +259,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReviewTest.canCreateACompleteReview" />
         <item itemvalue="JUnit.ReviewTest.canCreateAnEmptyReview" />
         <item itemvalue="JUnit.RestaurantTest.canGetStringWithRestaurantDetails" />
         <item itemvalue="JUnit.RestaurantTest" />
         <item itemvalue="JUnit.RestaurantTest.canCreateRestaurantWithCustomConstructor" />
-        <item itemvalue="JUnit.RestaurantTest.canCreateRestaurantWithDefaultConstructor" />
       </list>
     </recent_temporary>
   </component>
@@ -295,6 +295,9 @@
     </history-entry>
     <history-entry file="RestaurantTest_canGetStringWithRestaurantDetails - 2019.06.04 at 10h 56m 54s.xml">
       <configuration name="RestaurantTest.canGetStringWithRestaurantDetails" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReviewTest_canCreateAnEmptyReview - 2019.06.04 at 11h 33m 21s.xml">
+      <configuration name="ReviewTest.canCreateAnEmptyReview" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -369,8 +372,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/inheritance/ReviewTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        <state relative-caret-position="330">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
