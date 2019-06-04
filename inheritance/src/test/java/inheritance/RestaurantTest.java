@@ -65,4 +65,19 @@ public class RestaurantTest {
 
         assertTrue(testerant.getReviews().size() == 5);
     }
+
+    @Test
+    public void canUpdateNumberOfStars() {
+        String testBody = "There is a lot of stuff I could say about this restaurant but I probably won't because I did " +
+                "not want to create a full review because that would take forever.";
+        String testAuthor = "Chandy La\'Twillian";
+        int testRating = 5;
+
+        Review testReview1 = new Review(testBody, testAuthor, testRating);
+        Restaurant testerant = new Restaurant("The Testerant Restaurant", 1, "$$$");
+
+        testerant.addReview((testReview1));
+
+        assertTrue(testerant.getNumberOfStars() == 5);
+    }
 }

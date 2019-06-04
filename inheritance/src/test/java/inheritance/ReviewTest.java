@@ -34,4 +34,5 @@ public class ReviewTest {
 
         assertTrue(test.getAuthor() == testAuthor);
     }
+
 }
