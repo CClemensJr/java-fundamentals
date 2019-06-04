@@ -22,4 +22,16 @@ public class ReviewTest {
 
         assertTrue(test.getAuthor() == testAuthor);
     }
+
+    @Test
+    public void canGetStringWithReviewDetails() {
+        String testBody = "There is a lot of stuff I could say about this restaurant but I probably won't because I did " +
+                "not want to create a full review because that would take forever.";
+        String testAuthor = "Chandy La\'Twillian";
+        int testRating = 5;
+
+        Review test = new Review(testBody, testAuthor, testRating);
+
+        assertTrue(test.getAuthor() == testAuthor);
+    }
 }
