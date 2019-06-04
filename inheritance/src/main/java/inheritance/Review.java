@@ -40,4 +40,7 @@ public class Review {
 /*********
  * Instance Methods
  * */
+    public String toString() {
+        return String.format("%s says: \"%s\"  \nRating: %d", this.author, this.body, this.numberOfStars);
+    }
 }

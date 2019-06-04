@@ -43,5 +43,4 @@ public class Restaurant {
     public String toString() {
         return String.format("Name: %s | Rating: %d | Price: %s", this.name, this.numberOfStars, this.priceCategory);
     }
-
 }
