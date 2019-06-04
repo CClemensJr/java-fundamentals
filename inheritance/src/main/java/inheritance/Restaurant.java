@@ -43,4 +43,8 @@ public class Restaurant {
     public String toString() {
         return String.format("Name: %s | Rating: %d | Price: %s", this.name, this.numberOfStars, this.priceCategory);
     }
+
+    public String addReview(Review review) {
+        return review.toString();
+    }
 }
