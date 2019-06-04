@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="778eb031-6ead-49bc-bac7-51c8fb5946fe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/inheritance/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inheritance/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/inheritance/RestaurantTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inheritance/RestaurantTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -24,10 +24,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/inheritance/Restaurant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
+            <state relative-caret-position="387">
               <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -36,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/inheritance/RestaurantTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="301">
+              <caret line="65" column="53" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,8 +86,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/inheritance/Review.java" />
         <option value="$PROJECT_DIR$/src/test/java/inheritance/ReviewTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/inheritance/RestaurantTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/inheritance/Restaurant.java" />
+        <option value="$PROJECT_DIR$/src/test/java/inheritance/RestaurantTest.java" />
       </list>
     </option>
   </component>
@@ -180,7 +180,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RestaurantTest.canAddReviews">
+  <component name="RunManager" selected="JUnit.RestaurantTest.canAddMultipleReviews">
+    <configuration name="RestaurantTest.canAddAReview" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inheritance.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="inheritance" />
+      <option name="MAIN_CLASS_NAME" value="inheritance.RestaurantTest" />
+      <option name="METHOD_NAME" value="canAddAReview" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestaurantTest.canAddMultipleReviews" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inheritance.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="inheritance" />
+      <option name="MAIN_CLASS_NAME" value="inheritance.RestaurantTest" />
+      <option name="METHOD_NAME" value="canAddMultipleReviews" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RestaurantTest.canAddReviews" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="inheritance.test" />
       <extension name="coverage">
@@ -197,22 +229,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestaurantTest.canGetStringWithRestaurantDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="inheritance.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="inheritance" />
-      <option name="MAIN_CLASS_NAME" value="inheritance.RestaurantTest" />
-      <option name="METHOD_NAME" value="canGetStringWithRestaurantDetails" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReviewTest.canCreateACompleteReview" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="inheritance.test" />
       <extension name="coverage">
@@ -224,22 +240,6 @@
       <option name="PACKAGE_NAME" value="inheritance" />
       <option name="MAIN_CLASS_NAME" value="inheritance.ReviewTest" />
       <option name="METHOD_NAME" value="canCreateACompleteReview" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReviewTest.canCreateAnEmptyReview" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="inheritance.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="inheritance" />
-      <option name="MAIN_CLASS_NAME" value="inheritance.ReviewTest" />
-      <option name="METHOD_NAME" value="canCreateAnEmptyReview" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -263,11 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RestaurantTest.canAddMultipleReviews" />
+        <item itemvalue="JUnit.RestaurantTest.canAddAReview" />
         <item itemvalue="JUnit.RestaurantTest.canAddReviews" />
         <item itemvalue="JUnit.ReviewTest.canGetStringWithReviewDetails" />
         <item itemvalue="JUnit.ReviewTest.canCreateACompleteReview" />
-        <item itemvalue="JUnit.ReviewTest.canCreateAnEmptyReview" />
-        <item itemvalue="JUnit.RestaurantTest.canGetStringWithRestaurantDetails" />
       </list>
     </recent_temporary>
   </component>
@@ -285,9 +285,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RestaurantTest_canGetStringWithRestaurantDetails - 2019.06.04 at 10h 55m 42s.xml">
-      <configuration name="RestaurantTest.canGetStringWithRestaurantDetails" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RestaurantTest_canGetStringWithRestaurantDetails - 2019.06.04 at 10h 56m 54s.xml">
       <configuration name="RestaurantTest.canGetStringWithRestaurantDetails" configurationId="JUnit" />
     </history-entry>
@@ -315,6 +312,9 @@
     <history-entry file="RestaurantTest_canAddReviews - 2019.06.04 at 13h 09m 13s.xml">
       <configuration name="RestaurantTest.canAddReviews" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RestaurantTest_canAddAReview - 2019.06.04 at 13h 13m 16s.xml">
+      <configuration name="RestaurantTest.canAddAReview" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
@@ -329,13 +329,13 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32916668" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32916668" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.32916668" />
       <window_info anchor="bottom" id="Messages" weight="0.32916668" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -379,20 +379,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/inheritance/RestaurantTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/inheritance/Restaurant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="387">
+          <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/inheritance/Restaurant.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/inheritance/RestaurantTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
+        <state relative-caret-position="301">
+          <caret line="65" column="53" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
