@@ -1,5 +1,7 @@
 package inheritance;
 
+import java.util.List;
+
 public class Restaurant {
 /*********
  * Instance Variables
@@ -7,7 +9,7 @@ public class Restaurant {
     private String name;
     private int numberOfStars;
     private String priceCategory;
-
+    private List<Review> reviews;
 
 /*********
  * Constructors
@@ -31,6 +33,7 @@ public class Restaurant {
     public String getName() { return this.name; }
     public int getNumberOfStars() { return this.numberOfStars; }
     public String getPriceCategory() { return this.priceCategory; }
+    public List<Review> getReviews() { return this.reviews; }
 
     public void setName(String name) { this.name = name; }
     public void setNumberOfStars(int numberOfStars) { this.numberOfStars = numberOfStars; }
@@ -44,7 +47,7 @@ public class Restaurant {
         return String.format("Name: %s | Rating: %d | Price: %s", this.name, this.numberOfStars, this.priceCategory);
     }
 
-    public String addReview(Review review) {
-        return review.toString();
+    public void addReview(Review review) {
+        this.reviews.add(review);
     }
 }
