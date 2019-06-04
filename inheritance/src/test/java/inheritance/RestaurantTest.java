@@ -29,7 +29,7 @@ public class RestaurantTest {
     }
 
     @Test
-    public void canGetReviewInfoFromRestaurantInstance() {
+    public void canAddReviews() {
         String testBody = "There is a lot of stuff I could say about this restaurant but I probably won't because I did " +
                 "not want to create a full review because that would take forever.";
         String testAuthor = "Chandy La\'Twillian";
@@ -40,6 +40,6 @@ public class RestaurantTest {
 
         testerant.addReview((testReview));
 
-        assertTrue()
+        assertTrue(testerant.getReviews().size() > 0);
     }
 }

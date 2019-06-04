@@ -1,5 +1,6 @@
 package inheritance;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Restaurant {
@@ -18,12 +19,14 @@ public class Restaurant {
         this.name = name;
         this.numberOfStars = 1;
         this.priceCategory = "$";
+        this.reviews = new ArrayList<>();
     }
 
     public Restaurant(String name, int numberOfStars, String priceCategory) {
         this.name = name;
         this.numberOfStars = numberOfStars;
         this.priceCategory = priceCategory;
+        this.reviews = new ArrayList<>();
     }
 
 
