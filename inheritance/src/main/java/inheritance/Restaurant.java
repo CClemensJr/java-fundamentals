@@ -41,7 +41,7 @@ public class Restaurant {
  * Instance Methods
  * */
     public String toString() {
-        return String.format("Name: %a | Rating: %b | Price: %c", this.name, this.numberOfStars, this.priceCategory);
+        return String.format("Name: %s | Rating: %d | Price: %s", this.name, this.numberOfStars, this.priceCategory);
     }
 
 }
