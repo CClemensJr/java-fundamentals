@@ -52,5 +52,6 @@ public class Restaurant {
 
     public void addReview(Review review) {
         this.reviews.add(review);
+        this.setNumberOfStars(review.getNumberOfStars());
     }
 }
