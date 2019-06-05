@@ -17,7 +17,11 @@ public class Shop {
         this.priceRating = "Please set the price rating.";
     }
 
-
+    public Shop(String name, String description, String priceRating) {
+        this.name = name;
+        this.description = description;
+        this.priceRating = priceRating;
+    }
 
 /*********
  * Getters and Setters
