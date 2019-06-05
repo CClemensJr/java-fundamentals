@@ -38,5 +38,7 @@ public class Shop {
 /*********
  * Instance Methods
  * */
-
+    public String toString() {
+        return String.format("Name: %s \n Description: %s \n Price Rating: %s", this.name, this.description, this.priceRating);
+    }
 }
