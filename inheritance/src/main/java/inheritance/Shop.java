@@ -12,7 +12,7 @@ public class Shop {
  * Constructors
  * */
     public Shop() {
-        this.name = "Please set the shop name";
+        this.name = "Please set the shop name.";
         this.description = "Please set the shop description.";
         this.priceRating = "Please set the price rating.";
     }
