@@ -31,6 +31,18 @@ public class Theater {
 /*********
  * Instance Methods
  * */
+    public void addMovie(String movie) { movies.add(movie); }
 
+    public void removeMovie(String movie) { movies.remove(movie); }
+
+    public String toString() {
+        StringBuilder allMovies = new StringBuilder();
+
+        for (String movie : movies) {
+            allMovies.append(" - " + movie + " - ");
+        }
+
+        return allMovies.toString();
+    }
 
 }
