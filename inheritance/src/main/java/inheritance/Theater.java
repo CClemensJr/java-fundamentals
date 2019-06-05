@@ -38,8 +38,10 @@ public class Theater {
     public String toString() {
         StringBuilder allMovies = new StringBuilder();
 
+        allMovies.append(" - ");
+
         for (String movie : movies) {
-            allMovies.append(" - " + movie + " - ");
+            allMovies.append(movie + " - ");
         }
 
         return allMovies.toString();
