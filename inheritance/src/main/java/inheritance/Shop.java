@@ -26,6 +26,13 @@ public class Shop {
 /*********
  * Getters and Setters
  * */
+    public String getName() { return this.name; }
+    public String getDescription() { return this.description; }
+    public String getPriceRating() { return this.priceRating; }
+
+    public void setName(String name) { this.name = name; }
+    public void setDescription(String description) { this.description = description; }
+    public void setPriceRating(String priceRating) { this.priceRating = priceRating; }
 
 
 /*********
