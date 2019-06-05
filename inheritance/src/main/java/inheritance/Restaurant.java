@@ -9,7 +9,7 @@ public class Restaurant {
  * */
     private String name;
     private int starRating;
-    private String priceCategory;
+    private String priceRating;
     private List<Review> reviews;
 
 /*********
@@ -18,14 +18,14 @@ public class Restaurant {
     public Restaurant(String name) {
         this.name = name;
         this.starRating = 1;
-        this.priceCategory = "$";
+        this.priceRating = "$";
         this.reviews = new ArrayList<>();
     }
 
     public Restaurant(String name, int numberOfStars, String priceCategory) {
         this.name = name;
         this.starRating = numberOfStars;
-        this.priceCategory = priceCategory;
+        this.priceRating = priceCategory;
         this.reviews = new ArrayList<>();
     }
 
@@ -35,19 +35,19 @@ public class Restaurant {
  * */
     public String getName() { return this.name; }
     public int getStarRating() { return this.starRating; }
-    public String getPriceCategory() { return this.priceCategory; }
+    public String getPriceRating() { return this.priceRating; }
     public List<Review> getReviews() { return this.reviews; }
 
     public void setName(String name) { this.name = name; }
     public void setStarRating(int starRating) { this.starRating = starRating; }
-    public void setPriceCategory(String priceCategory) { this.priceCategory = priceCategory; }
+    public void setPriceRating(String priceCategory) { this.priceRating = priceCategory; }
 
 
 /*********
  * Instance Methods
  * */
     public String toString() {
-        return String.format("Name: %s | Rating: %d | Price: %s", this.name, this.getStarRating(), this.priceCategory);
+        return String.format("Name: %s | Rating: %d | Price: %s", this.name, this.getStarRating(), this.priceRating);
     }
 
     public void addReview(Review review) {
