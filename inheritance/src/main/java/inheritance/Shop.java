@@ -38,10 +38,12 @@ public class Shop {
     public String getName() { return this.name; }
     public String getDescription() { return this.description; }
     public String getPriceRating() { return this.priceRating; }
+    public int getStarRating() { return this.starRating; }
 
     public void setName(String name) { this.name = name; }
     public void setDescription(String description) { this.description = description; }
     public void setPriceRating(String priceRating) { this.priceRating = priceRating; }
+    public void setStarRating(int starRating) { this.starRating = starRating; }
 
 
 /*********
