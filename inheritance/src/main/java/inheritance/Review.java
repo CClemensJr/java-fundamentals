@@ -31,6 +31,13 @@ public class Review {
         this.starRating = numberOfStars;
     }
 
+    public Review(String body, String author, int numberOfStars, String movieSeen) {
+        this.body = body;
+        this.author = author;
+        this.starRating = numberOfStars;
+
+    }
+
 
 /*********
  * Getters and Setters
