@@ -9,6 +9,7 @@ public class Review {
     private int starRating;
 
 
+
 /*********
  * Constructors
  * */
@@ -16,6 +17,12 @@ public class Review {
         this.body = "";
         this.author = "";
         this.starRating = 1;
+    }
+
+    public Review(String body, String author) {
+        this.body = body;
+        this.author = author;
+        this.starRating = 0;
     }
 
     public Review(String body, String author, int numberOfStars) {
