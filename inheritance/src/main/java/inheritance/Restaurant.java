@@ -1,6 +1,7 @@
 package inheritance;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Restaurant {
@@ -26,7 +27,7 @@ public class Restaurant {
         this.name = name;
         this.starRating = numberOfStars;
         this.priceRating = priceCategory;
-        this.reviews = new ArrayList<>();
+        this.reviews = new LinkedList<>();
     }
 
 

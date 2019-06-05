@@ -1,5 +1,6 @@
 package inheritance;
 
+import java.util.LinkedList;
 import java.util.List;
 
 public class Shop {
@@ -9,6 +10,7 @@ public class Shop {
     private String name;
     private String description;
     private String priceRating;
+    private int starRating;
     private List<Review> reviews;
 
 /*********
@@ -18,12 +20,16 @@ public class Shop {
         this.name = "Please set the shop name.";
         this.description = "Please set the shop description.";
         this.priceRating = "Please set the price rating.";
+        this.starRating = 1;
+        this.reviews = new LinkedList<>();
     }
 
     public Shop(String name, String description, String priceRating) {
         this.name = name;
         this.description = description;
         this.priceRating = priceRating;
+        this.starRating = 1;
+        this.reviews = new LinkedList<>();
     }
 
 /*********
@@ -43,5 +49,10 @@ public class Shop {
  * */
     public String toString() {
         return String.format("Name: %s \n Description: %s \n Price Rating: %s", this.name, this.description, this.priceRating);
+    }
+
+    public void addReview(Review review) {
+        this.reviews.add(review);
+        this.setStarRating(review.getStarRating());
     }
 }
