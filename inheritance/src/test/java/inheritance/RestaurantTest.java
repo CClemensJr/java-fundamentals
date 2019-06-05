@@ -15,7 +15,7 @@ public class RestaurantTest {
     public void canCreateRestaurantWithCustomConstructor() {
         Restaurant testerant = new Restaurant("The Testerant Restaurant", 4, "$$$");
 
-        assertTrue(testerant.getNumberOfStars() == 4);
+        assertTrue(testerant.getStarRating() == 4);
     }
 
     @Test
@@ -78,6 +78,6 @@ public class RestaurantTest {
 
         testerant.addReview((testReview1));
 
-        assertTrue(testerant.getNumberOfStars() == 5);
+        assertTrue(testerant.getStarRating() == 5);
     }
 }

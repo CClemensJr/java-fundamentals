@@ -8,7 +8,7 @@ public class Restaurant {
  * Instance Variables
  * */
     private String name;
-    private int numberOfStars;
+    private int starRating;
     private String priceCategory;
     private List<Review> reviews;
 
@@ -17,14 +17,14 @@ public class Restaurant {
  * */
     public Restaurant(String name) {
         this.name = name;
-        this.numberOfStars = 1;
+        this.starRating = 1;
         this.priceCategory = "$";
         this.reviews = new ArrayList<>();
     }
 
     public Restaurant(String name, int numberOfStars, String priceCategory) {
         this.name = name;
-        this.numberOfStars = numberOfStars;
+        this.starRating = numberOfStars;
         this.priceCategory = priceCategory;
         this.reviews = new ArrayList<>();
     }
@@ -34,12 +34,12 @@ public class Restaurant {
  * Getters and Setters
  * */
     public String getName() { return this.name; }
-    public int getNumberOfStars() { return this.numberOfStars; }
+    public int getStarRating() { return this.starRating; }
     public String getPriceCategory() { return this.priceCategory; }
     public List<Review> getReviews() { return this.reviews; }
 
     public void setName(String name) { this.name = name; }
-    public void setNumberOfStars(int numberOfStars) { this.numberOfStars = numberOfStars; }
+    public void setStarRating(int starRating) { this.starRating = starRating; }
     public void setPriceCategory(String priceCategory) { this.priceCategory = priceCategory; }
 
 
@@ -47,11 +47,11 @@ public class Restaurant {
  * Instance Methods
  * */
     public String toString() {
-        return String.format("Name: %s | Rating: %d | Price: %s", this.name, this.numberOfStars, this.priceCategory);
+        return String.format("Name: %s | Rating: %d | Price: %s", this.name, this.getStarRating(), this.priceCategory);
     }
 
     public void addReview(Review review) {
         this.reviews.add(review);
-        this.setNumberOfStars(review.getNumberOfStars());
+        this.setStarRating(review.getStarRating());
     }
 }

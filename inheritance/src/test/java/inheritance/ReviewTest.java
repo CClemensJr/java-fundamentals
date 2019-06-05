@@ -8,7 +8,7 @@ public class ReviewTest {
     public void canCreateAnEmptyReview() {
         Review test = new Review();
 
-        assertTrue(test.getNumberOfStars() == 1);
+        assertTrue(test.getStarRating() == 1);
     }
 
     @Test
