@@ -39,6 +39,7 @@ public class Shop {
     public String getDescription() { return this.description; }
     public String getPriceRating() { return this.priceRating; }
     public int getStarRating() { return this.starRating; }
+    public List<Review> getReviews() { return this.reviews; }
 
     public void setName(String name) { this.name = name; }
     public void setDescription(String description) { this.description = description; }
