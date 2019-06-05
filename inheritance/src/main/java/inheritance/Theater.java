@@ -1,5 +1,6 @@
 package inheritance;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Theater {
@@ -15,17 +16,21 @@ public class Theater {
  * */
     public Theater(String name) {
         this.name = name;
+        movies = new ArrayList<>();
     }
 
 
 /*********
  * Getters and Setters
  * */
+    public String getName() { return this.name; };
+    public List<String> getMovies() { return this.movies; }
 
-
+    public void setName(String name) { this.name = name; }
 
 /*********
  * Instance Methods
  * */
+
 
 }
