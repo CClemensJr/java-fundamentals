@@ -1,5 +1,7 @@
 package inheritance;
 
+import java.util.List;
+
 public class Shop {
 /*********
  * Instance Variables
@@ -7,6 +9,7 @@ public class Shop {
     private String name;
     private String description;
     private String priceRating;
+    private List<Review> reviews;
 
 /*********
  * Constructors
