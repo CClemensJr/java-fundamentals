@@ -7,8 +7,7 @@ public class Review {
     private String body;
     private String author;
     private int starRating;
-
-
+    private String movieSeen;
 
 /*********
  * Constructors
@@ -35,7 +34,7 @@ public class Review {
         this.body = body;
         this.author = author;
         this.starRating = numberOfStars;
-
+        this.movieSeen = movieSeen;
     }
 
 
@@ -45,10 +44,12 @@ public class Review {
     public String getBody() { return this.body; }
     public String getAuthor() { return this.author; }
     public int getStarRating() { return this.starRating; }
+    public String getMovieSeen() { return this.movieSeen; }
 
     public void setBody(String body) { this.body = body; }
     public void setAuthor(String author) { this.author = author; }
     public void setStarRating(int numberOfStars) { this.starRating = numberOfStars; }
+    public void setMovieSeen(String movieSeen) { this.movieSeen = movieSeen; }
 
 
 /*********

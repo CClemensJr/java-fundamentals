@@ -35,4 +35,17 @@ public class ReviewTest {
         assertTrue(test.getAuthor() == testAuthor);
     }
 
+    @Test
+    public void canCreateReviewMovie() {
+        String testBody = "There is a lot of stuff I could say about this Theater but I probably won't because I did " +
+                "not want to create a full review because that would take forever.";
+        String testAuthor = "Chandy La\'Twillian";
+        int testRating = 5;
+        String testMovie = "The Thing";
+
+        Review test = new Review(testBody, testAuthor, testRating, testMovie);
+
+        assertTrue(test.getMovieSeen() == testMovie);
+    }
+
 }
