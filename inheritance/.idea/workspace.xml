@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="778eb031-6ead-49bc-bac7-51c8fb5946fe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/inheritance/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inheritance/Review.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/inheritance/ReviewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inheritance/ReviewTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="778eb031-6ead-49bc-bac7-51c8fb5946fe" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -40,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/inheritance/ShopTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
+            <state relative-caret-position="110">
               <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -61,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/inheritance/TheaterTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="316">
@@ -106,10 +103,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/inheritance/ReviewTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
+            <state relative-caret-position="286">
               <caret line="47" column="53" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -145,8 +142,8 @@
         <option value="$PROJECT_DIR$/src/main/java/inheritance/Theater.java" />
         <option value="$PROJECT_DIR$/src/main/java/inheritance/Review.java" />
         <option value="$PROJECT_DIR$/src/test/java/inheritance/RestaurantTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/inheritance/TheaterTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/inheritance/ReviewTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/inheritance/TheaterTest.java" />
       </list>
     </option>
   </component>
@@ -239,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReviewTest.canCreateReviewMovie">
+  <component name="RunManager" selected="JUnit.TheaterTest.canAddMovieToReview">
     <configuration name="ReviewTest.canCreateReviewMovie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="inheritance.test" />
       <extension name="coverage">
@@ -272,6 +269,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TheaterTest.canAddMovieToReview" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inheritance.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="inheritance" />
+      <option name="MAIN_CLASS_NAME" value="inheritance.TheaterTest" />
+      <option name="METHOD_NAME" value="canAddMovieToReview" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TheaterTest.canAddMultipleReviews" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="inheritance.test" />
       <extension name="coverage">
@@ -283,22 +296,6 @@
       <option name="PACKAGE_NAME" value="inheritance" />
       <option name="MAIN_CLASS_NAME" value="inheritance.TheaterTest" />
       <option name="METHOD_NAME" value="canAddMultipleReviews" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TheaterTest.canGetAllMovies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="inheritance.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="inheritance" />
-      <option name="MAIN_CLASS_NAME" value="inheritance.TheaterTest" />
-      <option name="METHOD_NAME" value="canGetAllMovies" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -322,11 +319,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TheaterTest.canAddMovieToReview" />
         <item itemvalue="JUnit.ReviewTest.canCreateReviewMovie" />
         <item itemvalue="JUnit.TheaterTest.canUpdateStarRating" />
         <item itemvalue="JUnit.TheaterTest.canAddMultipleReviews" />
         <item itemvalue="JUnit.TheaterTest.canAddAReview" />
-        <item itemvalue="JUnit.TheaterTest.canGetAllMovies" />
       </list>
     </recent_temporary>
   </component>
@@ -344,12 +341,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TheaterTest_canCreateTheater - 2019.06.05 at 11h 36m 28s.xml">
-      <configuration name="TheaterTest.canCreateTheater" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TheaterTest_canAddAMovie - 2019.06.05 at 11h 38m 33s.xml">
-      <configuration name="TheaterTest.canAddAMovie" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TheaterTest_canAddMovies - 2019.06.05 at 11h 40m 27s.xml">
       <configuration name="TheaterTest.canAddMovies" configurationId="JUnit" />
     </history-entry>
@@ -374,6 +365,12 @@
     <history-entry file="TheaterTest_canUpdateStarRating - 2019.06.05 at 12h 07m 42s.xml">
       <configuration name="TheaterTest.canUpdateStarRating" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ReviewTest_canCreateReviewMovie - 2019.06.05 at 12h 17m 58s.xml">
+      <configuration name="ReviewTest.canCreateReviewMovie" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TheaterTest_canAddMovieToReview - 2019.06.05 at 12h 19m 25s.xml">
+      <configuration name="TheaterTest.canAddMovieToReview" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
@@ -389,13 +386,13 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32916668" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32916668" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32916668" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32916668" />
@@ -441,16 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/inheritance/ShopTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/inheritance/Shop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -478,6 +465,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/inheritance/ReviewTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="47" column="53" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/inheritance/ShopTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/inheritance/Theater.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
@@ -492,16 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
           <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/inheritance/ReviewTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="47" column="53" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
