@@ -8,7 +8,7 @@ public class ReviewTest {
     public void canCreateAnEmptyReview() {
         Review test = new Review();
 
-        assertTrue(test.getNumberOfStars() == 1);
+        assertTrue(test.getStarRating() == 1);
     }
 
     @Test
@@ -33,6 +33,19 @@ public class ReviewTest {
         Review test = new Review(testBody, testAuthor, testRating);
 
         assertTrue(test.getAuthor() == testAuthor);
+    }
+
+    @Test
+    public void canCreateReviewMovie() {
+        String testBody = "There is a lot of stuff I could say about this Theater but I probably won't because I did " +
+                "not want to create a full review because that would take forever.";
+        String testAuthor = "Chandy La\'Twillian";
+        int testRating = 5;
+        String testMovie = "The Thing";
+
+        Review test = new Review(testBody, testAuthor, testRating, testMovie);
+
+        assertTrue(test.getMovieSeen() == testMovie);
     }
 
 }
